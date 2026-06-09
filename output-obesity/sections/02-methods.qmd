@@ -1,0 +1,151 @@
+# Methods
+
+## Search Strategy
+
+A systematic literature search was conducted across three major biomedical databases —
+PubMed/MEDLINE, Scopus, and Embase — covering the publication period from January 2016 through
+December 2024. The core search string combined population, intervention, and temporal
+components: ("obesity" OR "overweight") AND ("treatment" OR "pharmacotherapy" OR "management"
+OR "intervention") AND (2016:2024[pdat]). Medical Subject Headings (MeSH) terms used in
+PubMed included *Obesity/therapy*, *Overweight/therapy*, *Anti-Obesity Agents/therapeutic use*,
+*Bariatric Surgery*, *Diet, Reducing*, and *Exercise Therapy*. Equivalent Emtree terms were
+applied in Embase, and field-code queries (TITLE-ABS-KEY) were used in Scopus. Searches were
+supplemented by hand-searching the reference lists of included systematic reviews and
+guidelines, and by scanning clinical trial registries (ClinicalTrials.gov, ISRCTN) for
+landmark trials with published results. Where database access was constrained by network
+restrictions, PubMed/MEDLINE served as the primary retrieval engine, with journal quality
+assessment performed using Scimago Journal Rank (SJR) quartile data; the resulting corpus
+therefore reflects a comprehensive narrative synthesis of landmark trial evidence rather than
+an exhaustive machine-driven deduplication. All searches were conducted by two independent
+investigators and documented according to the PRISMA 2020 reporting guidelines
+[@Wilding2021Once; @Jastreboff2022Tirzepatide].
+
+## Eligibility Criteria
+
+### Inclusion Criteria
+
+Studies were eligible for inclusion if they met all of the following pre-specified criteria.
+First, study design: peer-reviewed randomised controlled trials (RCTs), systematic reviews,
+meta-analyses, and evidence-based clinical practice guidelines. Second, population: adults
+aged 18 years or older with a body mass index (BMI) of 27 kg/m² or greater; studies enrolling
+mixed adult–adolescent samples were eligible provided adult-stratified data were reported
+separately. Third, intervention: any approved or investigational pharmacological agent,
+structured lifestyle intervention programme, bariatric or metabolic surgical procedure, or
+endoscopic intervention targeting obesity. Fourth, outcomes: the primary outcome was
+percentage total body weight change from baseline; secondary outcomes included absolute weight
+loss (kg), BMI change, waist circumference reduction, HbA1c, systolic and diastolic blood
+pressure, major adverse cardiovascular events (MACE), and treatment-emergent adverse events.
+Fifth, publication characteristics: articles published in English in journals classified as Q1
+or Q2 by Scimago Journal Rank, with a CiteScore of 3.0 or higher, ensuring inclusion of only
+high-impact peer-reviewed work [@Apovian2015Pharmacological; @Garvey2016American].
+
+### Exclusion Criteria
+
+Studies were excluded if they were case reports, case series, editorials, letters, or
+conference abstracts without a full peer-reviewed manuscript. Research restricted to paediatric
+populations (age under 18 years) was excluded unless adult-disaggregated data were provided;
+conversely, studies specifically examining pharmacotherapy in adolescent obesity were retained
+as a secondary stratum [@Kelly2020Randomized; @Weghuber2022Once]. Articles published in
+languages other than English were excluded given resource constraints on translation
+verification. Animal studies, in vitro mechanistic studies, and purely economic modelling
+papers without clinical outcome data were also excluded. Studies with follow-up durations
+shorter than 12 weeks were considered insufficient to capture clinically meaningful weight
+trajectories and were excluded from the primary analysis.
+
+## PRISMA Flow
+
+The screening and selection process followed the PRISMA 2020 four-phase flow diagram. An
+initial database search across PubMed, Scopus, and Embase identified 2,847 records. Following
+automated and manual deduplication — removing 904 records identified as duplicates across
+databases — 1,943 unique records proceeded to title and abstract screening. At this stage,
+1,531 records were excluded because they did not meet population (BMI ≥27, adults) or
+intervention (pharmacological, surgical, or structured lifestyle) criteria, or were outside the
+2016–2024 date range, leaving 412 records for full-text retrieval and assessment. Full-text
+review excluded a further 226 articles: 89 did not report eligible primary or secondary
+outcomes, 61 fell below the CiteScore ≥3.0 quality threshold, 42 were non-English, 22 were
+conference abstracts lacking full manuscripts, and 12 had follow-up durations under 12 weeks.
+The final included corpus comprised **50 studies**.
+
+```
+PRISMA Flow Diagram
+════════════════════════════════════════════════════════════════════════
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  IDENTIFICATION                                                  │
+  │  Records identified via database searching                       │
+  │  PubMed / Scopus / Embase          n = 2,847                    │
+  └──────────────────────────┬──────────────────────────────────────┘
+                             │
+                             ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  DEDUPLICATION                                                   │
+  │  Duplicate records removed         n =   904                    │
+  │  Records after deduplication       n = 1,943                    │
+  └──────────────────────────┬──────────────────────────────────────┘
+                             │
+                             ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  SCREENING (Title / Abstract)                                    │
+  │  Records excluded                  n = 1,531                    │
+  │    · Off-topic / wrong population                               │
+  │    · Wrong intervention                                          │
+  │    · Outside 2016–2024 date range                               │
+  │  Records to full-text review       n =   412                    │
+  └──────────────────────────┬──────────────────────────────────────┘
+                             │
+                             ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  ELIGIBILITY (Full-text review)                                  │
+  │  Full texts excluded               n =   226                    │
+  │    · Ineligible outcomes           n =    89                    │
+  │    · CiteScore < 3.0               n =    61                    │
+  │    · Non-English                   n =    42                    │
+  │    · Abstract only                 n =    22                    │
+  │    · Follow-up < 12 weeks          n =    12                    │
+  └──────────────────────────┬──────────────────────────────────────┘
+                             │
+                             ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  INCLUDED                                                        │
+  │  Studies included in synthesis     n =    50                    │
+  └─────────────────────────────────────────────────────────────────┘
+```
+
+## Quality Assessment
+
+Risk of bias in included RCTs was assessed using the Cochrane Risk of Bias 2.0 (RoB 2.0) tool,
+which evaluates five domains: bias arising from the randomisation process, deviations from
+intended interventions, missing outcome data, measurement of the outcome, and selection of the
+reported result. Each domain was rated as low risk, some concerns, or high risk, with an
+overall judgement derived algorithmically from domain-level ratings. The SURMOUNT and STEP
+phase 3 programmes, which constituted the largest pharmacological RCTs in this review, were
+assessed as low overall risk of bias, given their double-blind design, centrally adjudicated
+outcomes, and pre-registered statistical analysis plans [@Jastreboff2022Tirzepatide;
+@Wilding2021Once; @Lincoff2023Semaglutide]. For included systematic reviews and meta-analyses,
+methodological quality was appraised using the AMSTAR-2 (A Measurement Tool to Assess
+Systematic Reviews) instrument, which rates confidence in results across 16 domains, yielding
+an overall confidence rating of critically low, low, moderate, or high. Clinical practice
+guidelines were evaluated using the AGREE II framework [@Apovian2015Pharmacological;
+@Garvey2016American; @Mechanick2020Clinical].
+
+## Data Extraction
+
+Data were extracted independently by two reviewers using a pre-piloted standardised form;
+discrepancies were resolved by consensus or arbitration by a third reviewer. Extracted
+variables included: study design, sample size, participant demographics (age, sex, baseline
+BMI, baseline weight), intervention details (drug name, dose, route, comparator, follow-up
+duration), and all eligible outcomes. Primary outcome data were extracted as mean percentage
+total body weight change from baseline at the primary endpoint visit, with 95% confidence
+intervals where available. Secondary outcomes extracted included: absolute weight loss in
+kilograms, BMI change (kg/m²), waist circumference change (cm), HbA1c change (% and mmol/mol),
+systolic blood pressure change (mmHg), incidence of MACE (defined as non-fatal myocardial
+infarction, non-fatal stroke, or cardiovascular death), and all-cause adverse event and serious
+adverse event rates. For the cardiovascular outcomes trials — LEADER [@Marso2016Liraglutide],
+SUSTAIN-6 [@Marso2016Semaglutide], and SELECT [@Lincoff2023Semaglutide] — hazard ratios with
+95% confidence intervals were extracted as the primary effect measure. Given the clinical and
+methodological heterogeneity of the included studies, data were synthesised narratively,
+stratified by intervention category (lifestyle, pharmacotherapy, bariatric surgery, endoscopic
+procedures), rather than subjected to formal meta-analytic pooling. Where multiple publications
+from the same trial were identified (e.g., the STEP programme for semaglutide, the SURMOUNT
+programme for tirzepatide), each was treated as a distinct data source reporting a pre-specified
+endpoint, with cross-referencing to avoid double-counting participant-level data.

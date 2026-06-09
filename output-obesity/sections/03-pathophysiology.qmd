@@ -1,0 +1,176 @@
+# Pathophysiology of Obesity
+
+## Central Regulation of Energy Balance
+
+The maintenance of body weight is governed by a tightly integrated neuroendocrine system
+centred on the arcuate nucleus (ARC) of the hypothalamus, which functions as the primary
+integrator of peripheral satiety and adiposity signals. Within the ARC, two anatomically
+interdigitated but functionally antagonistic neuronal populations exert opposing influences on
+energy homeostasis. Neuropeptide Y (NPY) and agouti-related peptide (AgRP) co-expressing
+neurons are potently orexigenic: when activated — as occurs during caloric deficit or low
+leptin states — they release NPY acting via Y1 and Y5 receptors to stimulate food intake, and
+AgRP, which functions as an endogenous inverse agonist at the melanocortin-4 receptor (MC4R),
+blocking the anorexigenic melanocortin signalling cascade. Opposing these are the pro-opiomelanocortin
+(POMC) and cocaine- and amphetamine-regulated transcript (CART) co-expressing neurons, which
+are anorexigenic: POMC undergoes post-translational cleavage by prohormone convertase 1/3
+(PC1/3) to yield α-melanocyte-stimulating hormone (α-MSH), which binds MC4R in the
+paraventricular nucleus (PVN) to reduce food intake and increase energy expenditure
+[@Muller2022Antiobesity; @Bluher2019Obesity].
+
+MC4R occupies a position of singular importance in human obesity genetics. Loss-of-function
+variants in the *MC4R* gene are identified in approximately 2–6% of individuals with severe
+obesity, constituting the most common monogenic cause of common obesity [@Muller2022Antiobesity].
+The receptor signals primarily via Gαs-coupled adenylyl cyclase activation, but also
+recruits β-arrestin pathways that modulate receptor internalisation and downstream MAPK
+signalling. The upstream regulator of this axis is leptin, a 16-kDa adipokine encoded by the
+*LEP* gene and secreted proportionally to adipose tissue mass. Leptin traverses the blood–brain
+barrier via a saturable transport mechanism and binds the long-form leptin receptor (LEPRb) on
+ARC POMC neurons, activating JAK2–STAT3 phosphorylation and driving *Pomc* gene transcription
+[@Fasshauer2015Adipokines]. In the obese state, despite dramatically elevated circulating
+leptin concentrations — commonly exceeding 30–40 ng/mL compared with 5–10 ng/mL in lean
+individuals — central leptin resistance emerges through multiple mechanisms including
+downregulation of LEPRb expression, impaired JAK2 signalling secondary to suppressor of
+cytokine signalling-3 (SOCS3) induction, and reduced leptin transport across the blood–brain
+barrier. This functional leptin resistance effectively uncouples adiposity from the
+homeostatic braking mechanisms that should limit further weight gain, creating a permissive
+neurobiological environment for progressive obesity.
+
+## The Gut–Brain Axis: Incretin and Satiety Hormones
+
+The gastrointestinal tract functions as the body's largest endocrine organ and is an essential
+afferent limb of the gut–brain energy-sensing axis. Glucagon-like peptide-1 (GLP-1) is
+derived from the *GCG* gene product proglucagon through differential post-translational
+processing in intestinal L-cells concentrated in the distal ileum and colon; in contrast,
+pancreatic α-cells process the same proglucagon precursor to yield glucagon [@Holst2007Physiology;
+@Drucker2018Mechanisms]. Following nutrient ingestion, L-cells secrete GLP-1 into the portal
+circulation within minutes; GLP-1 then acts through multiple mechanisms to reduce energy intake:
+it slows gastric emptying, augments glucose-stimulated insulin secretion from pancreatic
+β-cells, suppresses glucagon secretion from α-cells, and — crucially for obesity pharmacotherapy —
+activates GLP-1 receptors (GLP-1R) on vagal afferent neurons innervating the hepatoportal
+region and nodose ganglion, transmitting satiety signals to the nucleus tractus solitarius (NTS)
+in the brainstem, which in turn relays these signals to hypothalamic centres [@Muller2019Glucagon].
+GLP-1R are also expressed directly on ARC neurons, providing a direct central pathway for
+GLP-1-mediated appetite suppression.
+
+Glucose-dependent insulinotropic polypeptide (GIP), secreted from K-cells of the proximal
+small intestine in response to fat and carbohydrate ingestion, was originally characterised
+for its insulinotropic properties but has more recently been recognised as an important
+regulator of adipose tissue metabolism; GIP receptor (GIPR) signalling in adipocytes promotes
+lipid storage under fed conditions and may modulate energy expenditure, and in the central
+nervous system GIPR is expressed in the hypothalamus and ventral tegmental area, suggesting
+roles in reward-related eating behaviour [@Holst2020GIP]. The synergistic combination of
+GLP-1R and GIPR agonism, as achieved by tirzepatide, produces greater weight loss than
+selective GLP-1R agonism alone — a finding with profound mechanistic implications. Peptide YY
+(PYY), co-secreted with GLP-1 from L-cells, acts on Y2 receptors in the ARC to inhibit
+NPY/AgRP neurons and thereby suppress appetite. Cholecystokinin (CCK), released from
+I-cells of the duodenum and jejunum in response to dietary fat and protein, activates CCK-A
+receptors on vagal afferents and mediates short-term meal termination; unlike leptin and
+insulin, CCK resistance does not appear to develop in obesity, making its pathway a continued
+target of pharmacological interest [@Muller2022Antiobesity].
+
+## Adipose Tissue as an Endocrine Organ
+
+White adipose tissue (WAT) is no longer regarded as a passive energy reservoir but as a
+metabolically active endocrine organ that secretes over 600 bioactive proteins collectively
+termed adipokines. The contrast between visceral adipose tissue (VAT), concentrated in the
+omental and mesenteric depots, and subcutaneous adipose tissue (SAT) is of central clinical
+significance: VAT is characterised by greater lipolytic activity, higher macrophage infiltration,
+and proximity to the portal circulation, resulting in delivery of free fatty acids and
+pro-inflammatory cytokines directly to the liver, whereas SAT acts as a relatively protective
+buffer depot with lower inflammatory tone [@Bluher2019Obesity; @Fasshauer2015Adipokines].
+Leptin, the archetypal adipokine, is produced in direct proportion to adipocyte lipid content
+and fat mass, yet fails functionally in the obese hypothalamus as described above. Adiponectin,
+encoded by *ADIPOQ*, exhibits the opposite pattern: its circulating levels fall progressively
+with increasing adiposity and insulin resistance, a paradox partly explained by the fact that
+adiponectin has insulin-sensitising and anti-inflammatory properties — signalling through
+AdipoR1 and AdipoR2 receptors to activate AMPK and PPAR-α pathways — that are lost when
+adiponectin secretion is impaired. Resistin, interleukin-6 (IL-6), and tumour necrosis
+factor-α (TNFα) are pro-inflammatory adipokines that increase with visceral adiposity; TNFα
+impairs insulin signalling through serine phosphorylation of insulin receptor substrate-1
+(IRS-1), contributing to peripheral insulin resistance and a chronic low-grade inflammatory
+state that further drives adipose tissue dysfunction and cardiometabolic risk [@Fasshauer2015Adipokines].
+
+## The Gut Microbiome and Metabolic Crosstalk
+
+A landmark contribution to understanding obesity pathophysiology came from @Turnbaugh2006Obesity,
+who demonstrated in a germ-free mouse model that colonisation with caecal microbiota harvested
+from obese donors produced a significantly greater increase in total body fat than colonisation
+with microbiota from lean donors — without any difference in caloric intake — establishing a
+causal role for the gut microbiome in energy harvest and fat deposition. Metagenomic studies
+in human cohorts have consistently reported an elevated Firmicutes-to-Bacteroidetes ratio in
+individuals with obesity, although the mechanistic interpretation remains nuanced, as functional
+gene capacity for polysaccharide fermentation appears more important than phylum-level
+composition. The microbiome influences host energy metabolism through several interconnected
+mechanisms: production of short-chain fatty acids (SCFAs) — principally acetate, propionate,
+and butyrate — from dietary fibre fermentation, which signal through G-protein-coupled receptors
+GPR41 (FFAR3) and GPR43 (FFAR2) on colonocytes, enteroendocrine L-cells, and adipocytes,
+stimulating PYY and GLP-1 secretion; bile acid biotransformation, whereby primary bile acids
+undergo 7α-dehydroxylation by Clostridiales to yield secondary bile acids that activate
+Takeda G-protein receptor 5 (TGR5) on L-cells, further stimulating GLP-1 release; and
+regulation of intestinal permeability and endotoxaemia through the toll-like receptor 4
+(TLR4)-lipopolysaccharide axis, which contributes to metabolic inflammation [@Turnbaugh2006Obesity].
+
+## Genetic Architecture and Developmental Programming
+
+The heritability of BMI is estimated at 40–70% from twin studies, reflecting both polygenic
+and rare monogenic contributions. The fat mass and obesity-associated gene (*FTO*) represents
+the most replicated common variant locus: the rs9939609 risk allele, present in approximately
+16% of individuals of European ancestry, is associated with an average 1.5 kg increase in
+body weight and a 0.4 kg/m² increment in BMI per allele, acting partly through a regulatory
+role on *IRX3* and *IRX5* expression in adipocyte precursors that shifts the balance from
+thermogenic beige adipocyte differentiation toward lipid-storing white adipocyte
+differentiation [@Muller2022Antiobesity; @Bluher2019Obesity]. Beyond *FTO*, genome-wide
+association studies have identified over 900 loci contributing to BMI variance. At the
+monogenic extreme, complete leptin deficiency arising from homozygous *LEP* mutations produces
+severe early-onset obesity that is fully reversible with recombinant leptin replacement — a
+proof-of-concept demonstration of the leptin–melanocortin axis's centrality. Leptin receptor
+(*LEPR*) mutations produce a phenotypically similar syndrome with additional hyperpituitarism.
+Epigenetic mechanisms, including DNA methylation changes at developmental programming windows
+— particularly gestational overnutrition and excess gestational weight gain — imprint
+adipogenic gene expression patterns that persist through life, linking maternal metabolic
+health to offspring obesity risk via mechanisms operating through the hypothalamic–pituitary–
+adrenal (HPA) axis and altered glucocorticoid receptor methylation.
+
+## Obesogenic Environmental Drivers
+
+The biological predisposition to obesity is amplified by pervasive environmental exposures
+that systematically disrupt homeostatic energy regulation. Ultra-processed foods, classified
+under the NOVA system as industrially formulated products containing ingredients and additives
+not used in domestic cooking, are independently associated with excess energy intake beyond
+that explained by their nutrient profiles, driven partly by engineered hyperpalatability
+operating through mesolimbic dopamine circuits and partly by rapid gastric transit that
+attenuates post-meal GLP-1 and PYY secretion [@WilsonPetruk2023Obesity]. Sleep curtailment
+to below seven hours per night reliably suppresses leptin and elevates acyl-ghrelin — the
+orexigenic stomach-derived peptide — creating a hormonal milieu that increases appetite by an
+estimated 500 kcal/day. Chronic psychosocial stress activates the HPA axis, elevating cortisol
+and promoting preferential VAT deposition through glucocorticoid receptor-mediated lipid uptake
+in visceral adipocytes. The built environment, characterised by food deserts, limited active
+transport infrastructure, and advertising saturation of energy-dense products, structures
+behavioural choices in ways that are effectively invisible to individual volition. Finally,
+endocrine-disrupting chemicals including bisphenol A (BPA) and phthalates — found in food
+packaging and consumer products — interfere with adipogenesis and thyroid hormone signalling,
+contributing to the so-called "chemical obesogens" hypothesis [@Bluher2019Obesity].
+
+## Pharmacotherapeutic Exploitation of Pathophysiological Pathways
+
+The foregoing mechanistic landscape directly defines the target space for anti-obesity
+pharmacotherapy. GLP-1R agonists such as semaglutide exploit the gut–brain satiety axis by
+providing sustained, pharmacological-level GLP-1R stimulation that exceeds the amplitude and
+duration achievable by endogenous post-prandial secretion, thereby engaging both vagal afferent
+and direct hypothalamic POMC-neuron pathways to reduce appetite and food reward [@Drucker2018Mechanisms;
+@Wilding2021Once]. Tirzepatide adds GIPR co-agonism to this framework; the synergistic weight
+loss produced — up to 22.5% of body weight at the 15 mg dose in SURMOUNT-1 — likely reflects
+additive or supra-additive engagement of complementary hypothalamic and adipocyte-level circuits
+[@Jastreboff2022Tirzepatide]. Naltrexone–bupropion targets the melanocortin pathway directly:
+bupropion activates POMC neurons and increases α-MSH release, while naltrexone blocks
+β-endorphin-mediated autoinhibitory feedback on POMC neurons, resulting in sustained
+melanocortin tone [@Greenway2010Effect]. Orlistat operates peripherally, inhibiting intestinal
+lipase to reduce dietary fat absorption by approximately 30%, increasing the luminal fat load
+available to stimulate L-cell GLP-1 secretion as a secondary benefit. Bariatric surgery
+exploits multiple overlapping pathways simultaneously — caloric restriction, altered bile
+acid–TGR5 signalling, microbiome remodelling, and dramatic post-prandial GLP-1 surges — that
+together account for weight loss outcomes substantially exceeding those attributable to caloric
+restriction alone [@Batterham2016Neuroendocrine]. The convergence of mechanistic understanding
+thus frames pharmacotherapy not as a blunt metabolic suppressor but as a precision modulator
+of the specific neuroendocrine and peripheral circuits whose dysregulation drives the
+pathophysiology of obesity.
