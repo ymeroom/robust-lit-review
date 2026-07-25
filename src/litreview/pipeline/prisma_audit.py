@@ -19,6 +19,22 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
+# Sentinel used in AuditItem.required_in for items that apply to "the body /
+# results sections" rather than a named file. Section filenames are
+# topic-specific (03-pathogenesis.qmd for HLH, 03-pathophysiology.qmd for
+# obesity), so these resolve at audit time against the files actually present.
+BODY_SECTIONS = "<body>"
+
+# Filename fragments identifying structurally fixed sections. Everything else
+# in the sections directory counts as a body/results section.
+_STRUCTURAL_FRAGMENTS = (
+    "abstract",
+    "introduction",
+    "methods",
+    "discussion",
+    "prisma-checklist",
+)
+
 
 @dataclass
 class AuditItem:
@@ -92,18 +108,18 @@ PRISMA_ITEMS: list[AuditItem] = [
     AuditItem("16b", "Study selection - Exclusions", "Cite excluded studies and explain why",
               ["02-methods.qmd"], ["excluded", "exclusion", "reason", "citescore", "case report"]),
     AuditItem("17", "Study characteristics", "Cite each included study and present characteristics",
-              ["03-pathogenesis.qmd", "04-diagnosis.qmd", "05-etiology.qmd", "06-treatment.qmd"],
+              [BODY_SECTIONS],
               ["@"]),  # Check for citations
     AuditItem("18", "Risk of bias in studies", "Present risk of bias assessments",
               ["02-methods.qmd", "08-discussion.qmd"], ["risk of bias", "quality", "limitation"]),
     AuditItem("19", "Individual results", "Present summary statistics and effect estimates",
-              ["03-pathogenesis.qmd", "04-diagnosis.qmd", "05-etiology.qmd", "06-treatment.qmd"],
+              [BODY_SECTIONS],
               ["%", "p =", "p <", "hazard ratio", "odds ratio", "confidence interval", "n ="]),
     AuditItem("20a", "Synthesis summary", "Summarize characteristics of contributing studies per synthesis",
-              ["03-pathogenesis.qmd", "04-diagnosis.qmd", "05-etiology.qmd", "06-treatment.qmd", "07-covid.qmd"],
+              [BODY_SECTIONS],
               ["studies", "articles", "review", "trial"]),
     AuditItem("20b", "Synthesis results", "Present statistical synthesis results",
-              ["03-pathogenesis.qmd", "04-diagnosis.qmd", "06-treatment.qmd"],
+              [BODY_SECTIONS],
               ["%", "p ", "response rate", "survival", "mortality", "sensitivity", "specificity"]),
 
     # DISCUSSION
@@ -128,6 +144,25 @@ PRISMA_ITEMS: list[AuditItem] = [
 ]
 
 
+def _resolve_body_sections(filenames: list[str]) -> list[str]:
+    """Return the body/results section files among *filenames*.
+
+    Body sections are whatever is left after the structurally fixed sections
+    (abstract, introduction, methods, discussion, checklist) and the main
+    document are removed. This keeps the audit topic-agnostic: an HLH review
+    resolves to its pathogenesis/diagnosis/etiology files and an obesity review
+    to its pathophysiology/assessment/pharmacotherapy files, with no filenames
+    baked into the checklist.
+    """
+    return sorted(
+        name
+        for name in filenames
+        if name.endswith(".qmd")
+        and name != "literature_review.qmd"
+        and not any(frag in name.lower() for frag in _STRUCTURAL_FRAGMENTS)
+    )
+
+
 def audit_manuscript(sections_dir: Path) -> list[AuditItem]:
     """Audit the manuscript against all 27 PRISMA 2020 items.
 
@@ -144,13 +179,21 @@ def audit_manuscript(sections_dir: Path) -> list[AuditItem]:
     if main_qmd.exists():
         file_contents["literature_review.qmd"] = main_qmd.read_text(encoding="utf-8").lower()
 
+    body_sections = _resolve_body_sections(list(file_contents))
+    if not body_sections:
+        logger.warning("No body/results sections found in %s", sections_dir)
+
     results = []
     for item in PRISMA_ITEMS:
+        required_in = item.required_in
+        if BODY_SECTIONS in required_in:
+            required_in = [f for f in required_in if f != BODY_SECTIONS] + body_sections
+
         item = AuditItem(
             number=item.number,
             section=item.section,
             description=item.description,
-            required_in=item.required_in,
+            required_in=required_in,
             check_keywords=item.check_keywords,
         )
 

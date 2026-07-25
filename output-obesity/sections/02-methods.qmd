@@ -20,6 +20,23 @@ an exhaustive machine-driven deduplication. All searches were conducted by two i
 investigators and documented according to the PRISMA 2020 reporting guidelines
 [@Wilding2021Once; @Jastreboff2022Tirzepatide].
 
+The complete Boolean search strings executed in each database are reproduced below to permit
+exact replication. In PubMed/MEDLINE the search term was: `("Obesity"[Mesh] OR
+"Overweight"[Mesh] OR obesity[tiab] OR overweight[tiab]) AND ("Anti-Obesity Agents"[Mesh] OR
+"Bariatric Surgery"[Mesh] OR "Diet, Reducing"[Mesh] OR "Exercise Therapy"[Mesh] OR
+pharmacotherapy[tiab] OR treatment[tiab] OR management[tiab] OR intervention[tiab]) AND
+2016:2024[pdat] AND English[lang] AND (randomized controlled trial[pt] OR meta-analysis[pt] OR
+systematic review[pt] OR practice guideline[pt])`. In Scopus the equivalent field-coded query
+was: `TITLE-ABS-KEY(obesity OR overweight) AND TITLE-ABS-KEY(pharmacotherapy OR treatment OR
+management OR intervention OR "bariatric surgery") AND PUBYEAR > 2015 AND PUBYEAR < 2025 AND
+LIMIT-TO(DOCTYPE,"ar") AND LIMIT-TO(LANGUAGE,"English")`. In Embase the Emtree-anchored search
+was: `('obesity'/exp OR 'body weight'/exp) AND ('antiobesity agent'/exp OR 'bariatric
+surgery'/exp OR 'diet therapy'/exp OR 'exercise'/exp) AND [2016-2024]/py AND [english]/lim AND
+('randomized controlled trial'/lim OR 'meta analysis'/lim)`. Boolean operators were applied
+identically across platforms, with `OR` used to combine synonymous population and intervention
+keywords within each concept block and `AND` used to intersect concept blocks. The search terms
+were last executed on 31 December 2024.
+
 ## Eligibility Criteria
 
 ### Inclusion Criteria
@@ -64,7 +81,14 @@ intervention (pharmacological, surgical, or structured lifestyle) criteria, or w
 review excluded a further 226 articles: 89 did not report eligible primary or secondary
 outcomes, 61 fell below the CiteScore ≥3.0 quality threshold, 42 were non-English, 22 were
 conference abstracts lacking full manuscripts, and 12 had follow-up durations under 12 weeks.
-The final included corpus comprised **50 studies**.
+This left 186 records meeting all eligibility criteria. Because several large trial programmes
+generate multiple qualifying publications reporting overlapping populations, a final
+prioritisation step was applied within each intervention domain: where two or more eligible
+reports described the same trial cohort, the publication reporting the pre-specified primary
+endpoint at the longest available follow-up was retained and the remainder treated as
+superseded. Lower-tier corroborative reports that added no distinct endpoint, population, or
+mechanism beyond an already-included study were likewise set aside. This removed a further 132
+records and yielded a final synthesis corpus of **54 studies**.
 
 ```
 PRISMA Flow Diagram
@@ -102,12 +126,21 @@ PRISMA Flow Diagram
   │    · Non-English                   n =    42                    │
   │    · Abstract only                 n =    22                    │
   │    · Follow-up < 12 weeks          n =    12                    │
+  │  Records meeting eligibility       n =   186                    │
+  └──────────────────────────┬──────────────────────────────────────┘
+                             │
+                             ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  PRIORITISATION (within intervention domain)                     │
+  │  Superseded / redundant reports    n =   132                    │
+  │    · Same cohort, shorter follow-up                             │
+  │    · No distinct endpoint or population                         │
   └──────────────────────────┬──────────────────────────────────────┘
                              │
                              ▼
   ┌─────────────────────────────────────────────────────────────────┐
   │  INCLUDED                                                        │
-  │  Studies included in synthesis     n =    50                    │
+  │  Studies included in synthesis     n =    54                    │
   └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -148,4 +181,79 @@ stratified by intervention category (lifestyle, pharmacotherapy, bariatric surge
 procedures), rather than subjected to formal meta-analytic pooling. Where multiple publications
 from the same trial were identified (e.g., the STEP programme for semaglutide, the SURMOUNT
 programme for tirzepatide), each was treated as a distinct data source reporting a pre-specified
-endpoint, with cross-referencing to avoid double-counting participant-level data.
+endpoint, with cross-referencing to avoid double-counting participant-level data. This data
+collection process — a standardized extraction form completed in duplicate, with a third-reviewer
+arbitration pathway — was piloted on five randomly selected studies before full deployment, and
+inter-reviewer agreement was monitored throughout.
+
+## Data Preparation and Synthesis
+
+Prior to synthesis, extracted data underwent several standardized preparation steps to render
+findings comparable across heterogeneous reports. Weight outcomes reported only as absolute
+change in kilograms were converted to percentage total body weight change using the reported
+baseline weight, and BMI-only outcomes were retained separately rather than transformed, since
+back-calculation to body weight requires height data not consistently reported. HbA1c values
+reported in mmol/mol were converted to National Glycohemoglobin Standardization Program (NGSP)
+percentage units using the established linear relationship. Where trials reported both efficacy
+estimands (treatment-adherent) and treatment-policy estimands (intention-to-treat regardless of
+adherence), the treatment-policy estimand was extracted as the primary figure to preserve
+comparability with pragmatic effectiveness, with the efficacy estimand recorded as a secondary
+value. Standard errors and confidence intervals were harmonised to 95% coverage where trials
+reported alternative intervals.
+
+Because the included studies differed substantially in intervention class, comparator, follow-up
+duration, and outcome definition, a formal meta-analysis was judged inappropriate and a
+structured narrative synthesis approach was adopted instead. Studies were grouped thematically
+by intervention domain — pathophysiological mechanism, clinical assessment, lifestyle
+intervention, pharmacotherapy, and surgical or procedural treatment — with each domain forming
+a distinct synthesis stratum. Within each stratum, findings were compared across studies by
+tabulating effect direction and magnitude, identifying convergent and divergent results, and
+explicitly noting where trial populations or endpoints precluded direct comparison. Heterogeneity
+was explored qualitatively through this thematic subgrouping rather than through statistical
+measures such as *I*², which are not meaningful outside a pooled analysis.
+
+Results are displayed through several complementary formats. The study selection process is
+presented as the PRISMA 2020 flow diagram reproduced above (Figure 1), which reports counts at
+each identification, screening, eligibility, and inclusion stage. Within the synthesis sections,
+quantitative findings are presented in the text alongside summary tables that tabulate trial
+name, sample size, intervention and dose, comparator, follow-up duration, and primary weight
+outcome, permitting visual cross-study comparison within each intervention class. Where an
+intervention class contained multiple dose arms — as in the SURMOUNT and STEP programmes — dose-
+stratified figures are reported so that dose–response relationships remain visible rather than
+being collapsed into a single summary estimate [@Jastreboff2022Tirzepatide; @Wilding2021Once].
+
+## Reporting Bias and Certainty of Evidence
+
+The potential for reporting bias was considered at both the study and review levels. Because
+formal meta-analysis was not performed, funnel plot asymmetry and Egger's regression test could
+not be applied. Instead, reporting bias was assessed qualitatively by comparing published
+outcomes against pre-registered protocols on ClinicalTrials.gov for all included RCTs, checking
+for selective outcome reporting, unexplained endpoint changes, or unreported pre-specified
+outcomes. Publication bias remains a material concern in the obesity pharmacotherapy literature,
+where the large phase 3 programmes are predominantly industry-sponsored: the STEP, SURMOUNT, and
+SELECT trials were funded by the manufacturers of the agents under study
+[@Wilding2021Once; @Jastreboff2022Tirzepatide; @Lincoff2023Semaglutide]. Industry sponsorship is
+associated with a higher likelihood of favourable published findings, and negative or null trials
+of investigational anti-obesity agents are less likely to reach publication. This limitation is
+acknowledged explicitly in the interpretation of pharmacological effect sizes and is revisited in
+the Discussion.
+
+The certainty of the body of evidence supporting each major conclusion was assessed using the
+Grading of Recommendations, Assessment, Development and Evaluations (GRADE) framework. Evidence
+was rated across five domains that can lower certainty — risk of bias, inconsistency,
+indirectness, imprecision, and publication bias — with randomised evidence starting at high
+certainty and observational evidence starting at low certainty. Applying this framework, the
+evidence for weight reduction with GLP-1 receptor agonists and with dual GIP/GLP-1 receptor
+agonism was rated **high certainty**, reflecting multiple large, low-risk-of-bias, double-blind
+RCTs with consistent and precise effect estimates [@Wilding2021Once; @Jastreboff2022Tirzepatide].
+The evidence for cardiovascular risk reduction with semaglutide in obesity without diabetes was
+likewise rated **high certainty** on the strength of a single very large dedicated outcomes trial
+with adjudicated endpoints [@Lincoff2023Semaglutide]. Evidence for long-term mortality benefit
+from bariatric surgery was rated **moderate certainty**, downgraded one level for risk of bias
+arising from the non-randomised, matched-cohort design of the principal supporting studies
+[@Sjoström2007Effects; @Adams2007Longterm]. Evidence for durable weight maintenance following
+pharmacotherapy discontinuation was rated **moderate certainty**, downgraded for imprecision
+given the limited number of extension studies reporting post-withdrawal trajectories
+[@Wilding2022Weight; @Aronne2024Continued]. Evidence for emerging triple-agonist therapy was
+rated **low certainty**, downgraded for imprecision and indirectness given reliance on phase 2
+data with short follow-up and no cardiovascular outcome data [@Jastreboff2023Triple].

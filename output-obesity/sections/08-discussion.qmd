@@ -38,6 +38,36 @@ Substantial heterogeneity in individual treatment responses motivates a precisio
 
 Transformative efficacy is accompanied by a stark access disparity. Tirzepatide and semaglutide 2.4 mg carry list prices of approximately $1,000–1,500 per month without insurance in the United States, placing them beyond reach for populations bearing the highest obesity burden. As of 2024, Medicare did not cover GLP-1 RAs for obesity without T2D, and many Medicaid programmes similarly exclude these agents, effectively making access a function of employer-sponsored insurance generosity. Globally, these agents are approved in a fraction of countries where obesity prevalence is highest. Generic availability for semaglutide and tirzepatide is likely a decade or more distant given current patent portfolios, meaning that access barriers will persist unless policy interventions mandate coverage or accelerate lower-cost alternatives.
 
+## Implications for Clinical Practice and Policy
+
+The evidence synthesised here carries several direct implications for clinical practice. First,
+clinicians should treat obesity as a chronic relapsing disease requiring indefinite management
+rather than a time-limited weight-loss episode; the SURMOUNT-4 and STEP 1 extension data make
+clear that discontinuation predictably reverses benefit, so treatment duration should be framed
+with patients at initiation in the same terms used for antihypertensive or lipid-lowering therapy
+[@Aronne2024Continued; @Wilding2022Weight]. Second, treatment intensity should be matched to
+complication burden rather than to BMI alone: the Edmonton staging and ABCD frameworks recommend
+that a patient with stage 2–3 disease at BMI 32 warrants more aggressive intervention than a
+metabolically healthy patient at BMI 36 [@Sharma2009Proposed]. Third, in patients with obesity
+and established cardiovascular disease, semaglutide 2.4 mg should now be considered a
+cardiovascular risk-reduction therapy in its own right, not merely a weight intervention, given
+the 20% MACE reduction demonstrated in SELECT [@Lincoff2023Semaglutide]. Fourth, structured
+lifestyle intervention should be maintained alongside pharmacotherapy rather than abandoned once
+a drug is initiated, since the SURMOUNT-3 and STEP 3 designs demonstrate additive benefit when
+the two are combined [@Wadden2023Tirzepatide; @Wadden2021Effect]. Fifth, bariatric surgery
+referral should not be deferred indefinitely in patients with severe obesity and type 2 diabetes
+while successive pharmacological agents are trialled, given the durable remission and mortality
+benefit demonstrated over long-term follow-up [@Schauer2017Bariatric; @Sjoström2007Effects].
+
+At the policy level, the principal recommendation arising from this review is that coverage
+frameworks have not kept pace with the evidence. Reimbursement policies that exclude anti-obesity
+pharmacotherapy while covering treatments for the downstream complications of obesity are
+difficult to reconcile with cardiovascular outcome data, and payers and health systems should
+revisit exclusion criteria in light of the SELECT results. Health systems should also invest in
+multidisciplinary obesity care capacity — including dietetic, behavioural, and bariatric surgical
+services — since pharmacotherapy alone cannot deliver the combined outcomes demonstrated in trial
+settings that embedded structured lifestyle support.
+
 ## Future Directions
 
 The pharmacological pipeline beyond current GLP-1 RAs is exceptionally active. Retatrutide, a triple GLP-1/GIP/glucagon receptor agonist, produced a mean 24.2% body weight reduction at 48 weeks in a phase 2 trial [@Jastreboff2023Triple], exceeding any previous pharmacological result and approaching RYGB outcomes; phase 3 trials are underway. Oral semaglutide is approved for T2D and under regulatory evaluation for the obesity indication, which would lower the barrier associated with subcutaneous injection. The amylin analogue cagrilintide in combination with semaglutide (CagriSema) has shown approximately 15% weight loss in phase 2, providing an additional mechanism for patients with partial GLP-1 RA responses. Setmelanotide, a melanocortin-4 receptor agonist, has established proof of concept in monogenic obesity syndromes. Gene therapy targeting FTO and MC4R dysregulation remains at preclinical stage. Continued refinement of ESG technique and development of more durable endoluminal devices are expected to consolidate endoscopic procedures as a meaningful tier within the stepped care model.
