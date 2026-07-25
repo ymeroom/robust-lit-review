@@ -1,0 +1,54 @@
+---
+title: "Obesity: Medical Treatment — A Systematic Review (2016–2024)"
+subtitle: "A Systematic Literature Review"
+date: "2026-06-09"
+author: "Automated Literature Review Pipeline"
+format:
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    cite-method: citeproc
+    documentclass: article
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+    linestretch: 1.5
+  docx:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/american-medical-association.csl
+abstract: |
+  {{< include sections/00-abstract.qmd >}}
+---
+
+{{< include sections/01-introduction.qmd >}}
+
+{{< include sections/02-methods.qmd >}}
+
+{{< include sections/03-pathophysiology.qmd >}}
+
+{{< include sections/04-assessment.qmd >}}
+
+{{< include sections/05-lifestyle.qmd >}}
+
+{{< include sections/06-pharmacotherapy.qmd >}}
+
+{{< include sections/07-surgical.qmd >}}
+
+{{< include sections/08-discussion.qmd >}}
+
+{{< include sections/09-prisma-checklist.qmd >}}
+
+# References
+
+::: {#refs}
+:::

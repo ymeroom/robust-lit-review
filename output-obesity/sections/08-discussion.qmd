@@ -1,0 +1,81 @@
+# Discussion
+
+## Synthesis of Key Advances, 2016–2024
+
+The period from 2016 to 2024 has witnessed four paradigm shifts that fundamentally altered the conceptual and therapeutic landscape of obesity medicine, representing a discontinuity from prior decades rather than incremental refinement.
+
+The first and most consequential is the reconceptualisation of obesity from a condition attributable to willpower failure to a recognised chronic neurobiological disease driven by dysregulation of the hypothalamic–gut–adipose axis [@Bluher2019Obesity; @Muller2022Antiobesity]. Altered hypothalamic satiety circuits, reduced dopaminergic tone in reward pathways, and impaired leptin and insulin signalling persist even after weight loss, explaining the remarkable difficulty of long-term weight maintenance by volitional effort alone and providing the scientific foundation for pharmacological and surgical interventions that modulate appetite biology directly.
+
+The second paradigm shift is the emergence of GLP-1 receptor agonists and dual GLP-1/GIP agonists as transformative pharmacotherapy. STEP 1 demonstrated that semaglutide 2.4 mg once weekly produced a mean 14.9% weight reduction over 68 weeks in patients with obesity without diabetes [@Wilding2021Once], while SURMOUNT-1 showed tirzepatide 15 mg achieving 20.9% weight loss at 72 weeks [@Jastreboff2022Tirzepatide] — results that, for the first time, approached the 20–25% weight loss typical of sleeve gastrectomy and redefined expectations for pharmacological intervention.
+
+The third paradigm shift is the demonstration that cardiovascular benefit from GLP-1 RA therapy is independent of glucose lowering. The SELECT trial [@Lincoff2023Semaglutide] enrolled 17,604 patients with pre-existing cardiovascular disease, obesity, and no diabetes; semaglutide 2.4 mg reduced the composite of cardiovascular death, non-fatal MI, and non-fatal stroke by 20% (HR 0.80, 95% CI 0.72–0.90; p < 0.001) over 34.2 months, establishing for the first time that treating obesity itself reduces hard cardiovascular endpoints.
+
+The fourth paradigm shift is the recognition that metabolic dysfunction-associated steatohepatitis (MASH, formerly NASH) constitutes a first-line indication for pharmacotherapy targeting weight loss. Until 2024, no approved pharmacotherapy existed specifically for MASH. The SURMOUNT-NASH trial [@Loomba2024Tirzepatide], a phase 3 randomised controlled trial, demonstrated that tirzepatide 10 mg and 15 mg weekly over 52 weeks achieved MASH resolution without worsening of fibrosis in 44.4% and 62.4% of patients, respectively, compared with 9.7% in the placebo group, thereby opening a new therapeutic indication for an agent initially developed for glycaemic control.
+
+## Comparing Treatment Modalities
+
+Across the full spectrum of interventions examined in this review, a consistent hierarchy of efficacy is apparent that tracks closely with the degree of biological mechanism engaged. Lifestyle modification alone — even when delivered with high intensity — achieves a mean weight loss of approximately 5–8% over one year, which, while sufficient to reduce T2D incidence in at-risk individuals, falls short of the 10–15% threshold generally associated with clinically meaningful improvement in cardiometabolic risk factors in patients with established obesity-related disease [@Wadden2020Lifestyle; @LookAHEAD2013Cardiovascular]. The Look AHEAD trial's failure to demonstrate a reduction in cardiovascular events despite sustained 6–8% weight loss at eight years underscored that lifestyle intervention alone is insufficient to modify cardiovascular outcomes in patients with existing T2D and obesity.
+
+Contemporary pharmacotherapy with GLP-1 RAs and the dual GLP-1/GIP agonist tirzepatide bridges a substantial part of the gap between lifestyle intervention and bariatric surgery. Mean weight losses of 15–21% are now routinely achieved in phase 3 trials, with a meaningful proportion of patients achieving 25% or greater weight loss on tirzepatide — outcomes that overlap substantially with the weight loss distribution following sleeve gastrectomy. Bariatric surgery remains the most effective single intervention for severe obesity, producing 50–80% EWL at five years depending on procedure, with the most potent metabolic effects observed with RYGB and BPD-DS [@Schauer2017Bariatric; @Buchwald2004Bariatric]. Crucially, surgical efficacy in achieving T2D remission appears to be partially independent of the degree of weight loss achieved, reflecting the unique neuroendocrine mechanisms operative after intestinal rerouting [@Batterham2016Neuroendocrine]. The most clinically promising strategy emerging from recent literature is the combination of pharmacotherapy and surgical or endoscopic intervention — using GLP-1 RAs to optimise weight loss pre-operatively, reduce operative risk, manage weight regain post-operatively, or treat residual metabolic disease after bariatric procedures.
+
+## Special Populations
+
+Several subpopulations warrant tailored consideration in the context of obesity pharmacotherapy and surgery. Among patients with coexisting T2D, the convergence of glycaemic control and weight loss within single agents is particularly valuable. Tirzepatide in SURMOUNT-2 achieved 15.7% weight loss and a mean HbA1c reduction of 2.4 percentage points in patients with T2D and obesity [@Garvey2023Tirzepatide], while @Schauer2017Bariatric demonstrated that bariatric surgery achieves complete T2D remission in 23–29% of patients even at moderate BMI levels between 27 and 35 kg/m², reinforcing the metabolic indication for surgery below traditional weight thresholds. These complementary data support a framework in which pharmacotherapy and surgery are viewed as synergistic rather than competing strategies within a T2D treatment algorithm.
+
+Patients with MASH represent an emerging priority population for whom no pharmacotherapy was previously approved. SURMOUNT-NASH [@Loomba2024Tirzepatide] establishes tirzepatide as the first agent to demonstrate both MASH resolution and anti-fibrotic efficacy in a phase 3 setting, addressing a condition affecting an estimated 15 million people in the United States and constituting an increasing indication for liver transplantation.
+
+In adolescents, @Kelly2020Randomized demonstrated significant BMI reduction with liraglutide 3.0 mg daily in a phase 3 RCT, while @Weghuber2022Once reported that semaglutide 2.4 mg weekly achieved a 16.1% reduction in BMI versus 0.6% with placebo over 68 weeks — a treatment effect of remarkable magnitude. These data support a multidisciplinary approach integrating pharmacotherapy with behavioural intervention and family-centred care. For elderly patients, sarcopenic obesity creates a distinct challenge: weight loss that preferentially depletes lean mass may worsen physical function and increase fall risk, requiring resistance exercise, protein supplementation, and DEXA-based body composition monitoring alongside pharmacotherapy. The net benefit–risk balance of GLP-1 RAs in adults over 70 remains incompletely characterised and merits dedicated investigation.
+
+## The Weight Regain Challenge
+
+Weight regain following cessation of pharmacotherapy is a defining challenge that reflects the persistence of neurobiological mechanisms defending an elevated body weight set point. The STEP 1 extension study [@Wilding2022Weight] demonstrated that participants who discontinued semaglutide regained approximately two-thirds of lost weight within one year, with near-complete reversal of cardiometabolic improvements. The SURMOUNT-4 trial [@Aronne2024Continued] confirmed this with tirzepatide: continued therapy produced a further 5.5% weight loss, whereas patients switched to placebo regained 14% of body weight over 52 weeks. These data establish that pharmacological weight loss is contingent on continuous drug exposure — analogous to antihypertensive or statin therapy — and that obesity must be managed as a chronic condition requiring chronic treatment.
+
+## Precision Medicine in Obesity
+
+Substantial heterogeneity in individual treatment responses motivates a precision medicine approach to obesity treatment selection. Genetic profiling is beginning to identify stratifying variants: MC4R mutations, the most common monogenic cause of obesity, may predict reduced response to agents acting downstream of the melanocortin pathway; GLP1R variants are associated with differential GLP-1 secretion and potentially variable semaglutide response; and common FTO locus variants are under investigation as risk-prediction biomarkers. Gut microbiome composition influences energy harvest, bile acid metabolism, and GLP-1 secretion in ways that likely modulate treatment response to both pharmacological and surgical interventions. Psychobehavioural phenotyping — distinguishing hedonic or emotional eating from hyperphagia driven by deficient satiety signalling — may also guide pharmacotherapy selection, as these subtypes may respond differentially to agents targeting reward circuitry versus those primarily suppressing meal-driven appetite.
+
+## Health Equity and Access
+
+Transformative efficacy is accompanied by a stark access disparity. Tirzepatide and semaglutide 2.4 mg carry list prices of approximately $1,000–1,500 per month without insurance in the United States, placing them beyond reach for populations bearing the highest obesity burden. As of 2024, Medicare did not cover GLP-1 RAs for obesity without T2D, and many Medicaid programmes similarly exclude these agents, effectively making access a function of employer-sponsored insurance generosity. Globally, these agents are approved in a fraction of countries where obesity prevalence is highest. Generic availability for semaglutide and tirzepatide is likely a decade or more distant given current patent portfolios, meaning that access barriers will persist unless policy interventions mandate coverage or accelerate lower-cost alternatives.
+
+## Implications for Clinical Practice and Policy
+
+The evidence synthesised here carries several direct implications for clinical practice. First,
+clinicians should treat obesity as a chronic relapsing disease requiring indefinite management
+rather than a time-limited weight-loss episode; the SURMOUNT-4 and STEP 1 extension data make
+clear that discontinuation predictably reverses benefit, so treatment duration should be framed
+with patients at initiation in the same terms used for antihypertensive or lipid-lowering therapy
+[@Aronne2024Continued; @Wilding2022Weight]. Second, treatment intensity should be matched to
+complication burden rather than to BMI alone: the Edmonton staging and ABCD frameworks recommend
+that a patient with stage 2–3 disease at BMI 32 warrants more aggressive intervention than a
+metabolically healthy patient at BMI 36 [@Sharma2009Proposed]. Third, in patients with obesity
+and established cardiovascular disease, semaglutide 2.4 mg should now be considered a
+cardiovascular risk-reduction therapy in its own right, not merely a weight intervention, given
+the 20% MACE reduction demonstrated in SELECT [@Lincoff2023Semaglutide]. Fourth, structured
+lifestyle intervention should be maintained alongside pharmacotherapy rather than abandoned once
+a drug is initiated, since the SURMOUNT-3 and STEP 3 designs demonstrate additive benefit when
+the two are combined [@Wadden2023Tirzepatide; @Wadden2021Effect]. Fifth, bariatric surgery
+referral should not be deferred indefinitely in patients with severe obesity and type 2 diabetes
+while successive pharmacological agents are trialled, given the durable remission and mortality
+benefit demonstrated over long-term follow-up [@Schauer2017Bariatric; @Sjoström2007Effects].
+
+At the policy level, the principal recommendation arising from this review is that coverage
+frameworks have not kept pace with the evidence. Reimbursement policies that exclude anti-obesity
+pharmacotherapy while covering treatments for the downstream complications of obesity are
+difficult to reconcile with cardiovascular outcome data, and payers and health systems should
+revisit exclusion criteria in light of the SELECT results. Health systems should also invest in
+multidisciplinary obesity care capacity — including dietetic, behavioural, and bariatric surgical
+services — since pharmacotherapy alone cannot deliver the combined outcomes demonstrated in trial
+settings that embedded structured lifestyle support.
+
+## Future Directions
+
+The pharmacological pipeline beyond current GLP-1 RAs is exceptionally active. Retatrutide, a triple GLP-1/GIP/glucagon receptor agonist, produced a mean 24.2% body weight reduction at 48 weeks in a phase 2 trial [@Jastreboff2023Triple], exceeding any previous pharmacological result and approaching RYGB outcomes; phase 3 trials are underway. Oral semaglutide is approved for T2D and under regulatory evaluation for the obesity indication, which would lower the barrier associated with subcutaneous injection. The amylin analogue cagrilintide in combination with semaglutide (CagriSema) has shown approximately 15% weight loss in phase 2, providing an additional mechanism for patients with partial GLP-1 RA responses. Setmelanotide, a melanocortin-4 receptor agonist, has established proof of concept in monogenic obesity syndromes. Gene therapy targeting FTO and MC4R dysregulation remains at preclinical stage. Continued refinement of ESG technique and development of more durable endoluminal devices are expected to consolidate endoscopic procedures as a meaningful tier within the stepped care model.
+
+## Strengths and Limitations of This Review
+
+Strengths of this review include a multi-database search strategy with CiteScore/SJR quality filtering, structured two-stage screening with pre-specified criteria, independent DOI validation via the doi.org resolution API, and integration of lifestyle, pharmacological, and surgical literatures enabling cross-modality comparisons absent from single-domain reviews. Limitations include network access restrictions that reduced Embase and Scopus coverage during portions of the search, potentially introducing partial database bias. The 2016–2024 search window, while capturing the most clinically relevant evidence, necessarily excludes foundational earlier trials; these were incorporated as background citations by design. Publication bias inherent to any systematic review — positive results being disproportionately published and indexed in quality-filtered journals — cannot be fully mitigated. The field is evolving rapidly, and phase 3 data for several pipeline agents will emerge after this review's search cutoff.
+
+## Conclusions
+
+Obesity has emerged from decades of therapeutic neglect to become one of the most actively researched conditions in contemporary medicine, and the period from 2016 to 2024 has delivered advances of a magnitude and pace rarely seen in any therapeutic area. The central message of this systematic review is that obesity is a complex, chronic, neurobiologically mediated disease for which effective treatments now exist across a broad spectrum of severity and patient circumstance. GLP-1 receptor agonists and the dual GLP-1/GIP agonist tirzepatide have achieved pharmacological weight reductions — 15–21% of body weight in pivotal trials — that rival those achieved by bariatric sleeve gastrectomy in selected patients, while the SELECT trial has established cardiovascular outcome benefit independent of glycaemic effect. Bariatric surgery remains the most potent and metabolically transformative modality available for severe obesity with comorbid T2D, and its superiority in achieving T2D remission over intensive medical therapy has been definitively confirmed in multiple randomised controlled trials. The challenge ahead is not primarily one of efficacy — the treatments now available are effective — but of access, durability, and personalisation. Ensuring that the most effective interventions reach the patients with the greatest need, managing the chronic nature of the disease with continuous long-term treatment strategies, and developing precision tools to match individuals to the most appropriate therapy represent the defining clinical and scientific priorities for the next decade of obesity medicine.
